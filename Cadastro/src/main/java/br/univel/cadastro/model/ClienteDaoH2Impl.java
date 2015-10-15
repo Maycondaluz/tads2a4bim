@@ -65,6 +65,7 @@ public class ClienteDaoH2Impl implements ClienteDao {
 
 	@Override
 	public Cliente buscar(int id) {
+		
 	return null;
 	}
 

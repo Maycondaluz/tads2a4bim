@@ -8,6 +8,19 @@ public class Cliente {
 	private String telefone;
 	private String cidade;
 	private Uf uf;
+	
+	
+
+	public Cliente(int id, String nome, String endereco, String telefone,
+			String cidade, Uf uf) {
+		super();
+		this.id = id;
+		this.nome = nome;
+		this.endereco = endereco;
+		this.telefone = telefone;
+		this.cidade = cidade;
+		this.uf = uf;
+	}
 
 	public int getId() {
 		return id;
