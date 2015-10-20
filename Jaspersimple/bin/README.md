@@ -9,9 +9,3 @@
 * Criação do Repositorio.
 * Criaçao do Projeto.
 * Criaçao do ClienteDao.
-
-# 13 de outubro de 2015
-
-* Criaçao de Relatorio Simples.jasper
-* Criaçao de Relatorio Simplesjdbc.jasper
-* Criaçao de Relatorio com Conexao Banco de dados
