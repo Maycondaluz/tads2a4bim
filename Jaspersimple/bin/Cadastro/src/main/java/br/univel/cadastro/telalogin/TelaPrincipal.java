@@ -51,7 +51,8 @@ public class TelaPrincipal extends JFrame {
 		mntmCliente.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				//adiciona uma tela 
-				tabbedPane.addTab("Cadastro de Cliente", new JPanel());
+				tabbedPane.addTab("Cadastro de Cliente", new TelaCadastroCliente() {
+				});
 			}
 		});
 		mnCadastros.add(mntmCliente);
